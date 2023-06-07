@@ -1,0 +1,14 @@
+INSERT INTO Catalogue (catalogue_id,catalogue_name) VALUES (101, 'Electronics');
+INSERT INTO Catalogue (catalogue_id,catalogue_name) VALUES (102, 'Furnishings');
+INSERT INTO Catalogue (catalogue_id,catalogue_name) VALUES (103, 'Clothes');
+INSERT INTO Catalogue (catalogue_id,catalogue_name) VALUES (104, 'Books');
+INSERT INTO Catalogue (catalogue_id,catalogue_name) VALUES (105, 'Computers');
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (1,'Fans',5,1000,10,10,101);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (2,'Dishwasher',3,500,10,50,101);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (3,'Curtains',2,100,5100,10,102);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (4,'Material',4,700,4,55,102);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (5,'Kids',1,1500,10,10,103);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (6,'Trousers',5,400,7,10,103);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (7,'Shirts',3,300,10,10,103);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (8,'Microservices',2,2000,1000,10,104);
+INSERT INTO PRODUCTS (product_id, product_name, product_rating,product_price,product_discount,product_quantity,catalogue_id) VALUES (9,'Lenovo',1,5000,10,50,105);
